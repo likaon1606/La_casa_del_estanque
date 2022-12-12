@@ -229,7 +229,7 @@
 
 span {
 	margin-top: 1rem;
-	font-size: 1.50rem;
+	font-size: 1.75rem;
 }
 
 .constancia {
@@ -245,6 +245,7 @@ span {
 }
 
 .lista {
+	margin:1rem;
 	margin-top: 4rem;
 	background: #C2E3FB;
 	width: 800px;
@@ -269,6 +270,7 @@ span {
 }
 
 .deposito {
+	margin: 1rem;
 	background: gainsboro;
 	width: 300px;
 	padding: 1rem;
