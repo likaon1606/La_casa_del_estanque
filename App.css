@@ -209,9 +209,32 @@
 	text-align: center;
 }
 
+.title h1 {
+	margin-top: 5rem;
+	background: #0C7EBF;
+}
+
 .title h1, h2, h3 {
  padding: 1rem;
  text-align: center;
+ font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.fechas {
+	margin-top: 2rem;
+	background: #E9FF33;
+	padding: .25rem;
+	border-radius: 20px;
+}
+
+span {
+	margin-top: 1rem;
+	font-size: 1.50rem;
+}
+
+.constancia {
+	margin-top: 2rem;
+	background: #EA9B0B;
 }
 
 .contenedor {
@@ -223,16 +246,16 @@
 
 .lista {
 	margin-top: 4rem;
-	margin-left: 1rem;
-	background: red;
-	width: 43%;
+	background: #C2E3FB;
+	width: 800px;
 	display: flex;
-	align-items: center;
+	justify-content: center;
+	padding: 1rem;
+	border-radius: 10px;
 }
 
 .lista h1 {
-	margin-left: 1rem;
-	padding: 2rem;
+	padding: 1rem;
 }
 
 .lista ul, h1 {
@@ -246,11 +269,14 @@
 }
 
 .deposito {
-
 	background: gainsboro;
-
-	width: 40%;
+	width: 300px;
 	padding: 1rem;
+	border-radius: 30px;
+}
+
+.deposito h3, p {
+	padding: .75rem;
 }
 
 
@@ -265,6 +291,7 @@
 	  } 
   
 	  .menu ul li{/*MENU DESPLEGABLE*/
+			position: relative;
 		  display: block;
 		  font-size: 30px;
 		  margin: 10px;
@@ -357,7 +384,7 @@
 	  
 	  .menu img{/*imagen menu hamburguesa*/
 		  width: 10%;
-		  margin-left: 160px;
+		  margin-left: 3px;
 		  margin-top: 320px;
 	  }
 	  
@@ -376,6 +403,10 @@
   input#menu-hamburguesa:checked ~ ul{
 	  right: 60px;
   }
+	.menu ul{
+		position: relative;
+		margin-top: -3rem;
+	}
   .menu ul li{/*MENU DESPLEGABLE*/	
 	  margin: 10px;
 	  font-size: 20px;
