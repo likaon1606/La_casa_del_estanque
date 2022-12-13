@@ -289,6 +289,9 @@ span {
 	padding: .75rem;
 }
 
+.mail2 {
+	margin-left: 1.80rem;
+}
 
 
 
@@ -373,7 +376,8 @@ span {
 	}
 	  
 	  .section-midle, .section-two, .section-three{
-		  width:390px; 
+		  width:390px;
+			margin-top: 11rem; 
 	  }
 	  .section-midle p, .section-two p, .section-three p,.section-midle li, .section-two li, .section-three li{
 		  font-size: 15px;
@@ -418,11 +422,18 @@ span {
 		margin-top: -3rem;
 	}
   .menu ul li{/*MENU DESPLEGABLE*/	
+		position: relative;
 	  margin: 10px;
 	  font-size: 20px;
+		z-index: 4;
+		background: #EA9B0B;
   }
   .section-two ul{
 	  list-style: none;
   }
   }
   }
+
+	.title {
+		margin-top: 11rem;
+	}
