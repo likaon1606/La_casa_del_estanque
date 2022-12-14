@@ -367,6 +367,10 @@ span {
   input#menu-hamburguesa:checked ~ ul{
 	  right: -500px;
   }
+	
+
+
+
   
   /*------------------------CELULAR PEQUEÑO-------------------------------------------------*/
   
